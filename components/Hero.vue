@@ -16,12 +16,13 @@ export default {
 
 <style scoped>
 .Hero {
-  height: 50vh;
-  position: relative;
+  /*height: 50vh;*/
+  /*position: relative;*/
   display: flex;
   padding: 5rem 0;
   align-items: flex-start;
   justify-content: space-between;
+  margin-bottom: 2rem;
 }
 .text-container {
   width: 50%;
@@ -41,7 +42,7 @@ export default {
 }
 .overlay {
   background: rgba(0, 0, 0, 0);
-  position: absolute;
+  /*position: absolute;*/
   width: 100%;
   height: 100%;
   top: 0;
